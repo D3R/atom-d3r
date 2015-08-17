@@ -1,14 +1,14 @@
 {
   "name": "d3r",
   "main": "./lib/atom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An atom package for common components of the D3R Framework.",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "atom:toggle"
   },
-  "repository": "https://github.com/d3r/d3r-atom",
+  "repository": "https://github.com/D3R/atom-d3r",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
