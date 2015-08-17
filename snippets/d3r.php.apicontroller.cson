@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R API Controller':
+    'prefix': 'apicont'
+    'body': '/**\n * ${2/(?<=[a-z])[A-Z]/ $&/g}\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}\n */\nclass ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Controller_Action_Rest\n{\n\n\tprotected \\$_format        = null;\n\tprotected \\$_defaultFormat = \'json\';\n\tprotected \\$_apiVersion    = 2;\n\tprotected \\$_userClass     = \'Core_ApiUser\';\n\tprotected \\$_authProvider  = \'D3R_Rest_Auth_Provider_Standard\';\n\n\tprotected \\$_openMethods   = array();\n\n}'

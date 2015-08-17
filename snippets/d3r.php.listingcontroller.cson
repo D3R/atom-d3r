@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Listing Controller':
+    'prefix': 'listing'
+    'body': '/**\n * ${2/(?<=[a-z])[A-Z]/ $&/g}\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}\n */\nclass ${2:${TM_FILENAME/AdminController\.[^.]+$//}}AdminController extends D3R_Controller_Action_Admin_Listing${3:_Localised }\n{\n    protected \\$_modelClass     = \'$2_$5\';\n    protected \\$_itemName       = \'$5\';\n    protected \\$_listingTitle   = \'$5s\';\n    protected \\$_useUrlName     = ${6:true};\n    protected \\$_useGetUrl      = ${7:false};\n    protected \\$_useUrlPages    = ${8:false};\n    protected \\$_showPageInfo   = ${9:true};\n    protected \\$_showFilters    = true;\n    protected \\$_useFieldSets   = true;\n    protected \\$_csvExport      = false;\n}'

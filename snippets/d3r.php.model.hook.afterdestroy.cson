@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Model afterDestroy':
+    'prefix': 'adestroy'
+    'body': '/**\n * Override for afterDestroy model hook\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}\n */\npublic function afterDestroy()\n{\n    parent::afterDestroy();$1\n}$2'

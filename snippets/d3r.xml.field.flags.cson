@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field Flags':
+    'prefix': 'flags'
+    'body': '<field>\n    <name>Flags</name>\n    <dbname>flags</dbname>\n    <type>Flags</type>\n    <options>\n        <option>$1</option>\n    </options>\n    <autoupdate>True</autoupdate>\n    <listing>False</listing>\n</field>'

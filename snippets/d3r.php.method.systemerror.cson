@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R System Error':
+    'prefix': 'serror'
+    'body': 'D3R::systemError(\'$1\');'

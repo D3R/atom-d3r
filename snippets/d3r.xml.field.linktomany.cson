@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field LinkToMany':
+    'prefix': 'linktomany'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>LinkToMany</type>\n    <model>$2</model>\n    <listing>False</listing>\n    <foreign_field>$3</foreign_field>\n    <use_urlname>False</use_urlname>\n    <raw_query>True</raw_query>\n    <!-- <read_only>True</read_only> -->\n    <!-- <use_fieldsets>False</use_fieldsets> -->\n    <!-- <show_title>False</show_title> -->\n    <!-- <instance></instance> -->\n    <!-- <instance_field></instance_field> -->\n    <!-- <show_add_new>False</show_add_new> -->\n</field>'

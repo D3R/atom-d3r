@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field Timestamps':
+    'prefix': 'timestamps'
+    'body': '<field>\n    <name>Created</name>\n    <dbname>created</dbname>\n    <type>DateTime</type>\n    <default>now</default>\n    <required>False</required>\n    <listing>False</listing>\n</field>\n<field>\n    <name>Updated</name>\n    <dbname>updated</dbname>\n    <type>Updated</type>\n    <required>False</required>\n    <listing>False</listing>\n</field>'

@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field DynamicList':
+    'prefix': 'dynamiclist'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>DynamicList</type>\n    <!-- <default>$3</default> -->\n    <!-- <suppress_blank>True</suppress_blank> -->\n    <!-- <max_items>10</max_items> -->\n    <required>False</required>\n    <listing>False</listing>\n</field>'

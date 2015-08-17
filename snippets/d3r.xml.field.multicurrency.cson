@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field MultiCurrency':
+    'prefix': 'multicurrency'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>MultiCurrency</type>\n    <!-- <default>$3</default> -->\n    <hide_currency>True</hide_currency>\n    <default_currency>${4:GBP}</default_currency>\n    <required>False</required>\n    <listing>False</listing>\n    <currency_in_label>False</currency_in_label>\n</field>'

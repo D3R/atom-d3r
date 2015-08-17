@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Controller':
+    'prefix': 'controller'
+    'body': '/**\n * ${2/(?<=[a-z])[A-Z]/ $&/g}\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}\n */\nclass ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Controller_Action_Base\n{\n    protected \\$_frame  = \'${3:frame}\';\n    protected \\$_layout = \'${4:default}\';\n\n    /**\n     * $6 action\n     *\n     * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}\n     */\n    public function ${6:index}Action()\n    {\n        ${0:# code...}\n    }\n}'

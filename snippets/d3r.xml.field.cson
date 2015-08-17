@@ -1,0 +1,4 @@
+'.text.xml':
+  'd3r.xml.field':
+    'prefix': 'field'
+    'body': '<field>\n    <name>${1:Title}</name>\n    <type>${3:Text}</type>\n    <required>${4:True}</required>\n    <listing>${5:True}</listing>\n</field>'

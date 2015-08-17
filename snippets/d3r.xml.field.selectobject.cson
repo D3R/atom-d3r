@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field SelectObject':
+    'prefix': 'select'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>SelectObject</type>\n    <model>$2</model>\n    <!-- <method>$3</method> -->\n    <!-- <default>$4</default> -->\n    <required>False</required>\n    <listing>False</listing>\n    <hasblank>True</hasblank>\n</field>'

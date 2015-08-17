@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Controller Action':
+    'prefix': 'action'
+    'body': '/**\n * $1\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}\n */\npublic function $2Action()\n{\n    $3\n}'

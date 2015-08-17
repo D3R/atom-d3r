@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Model':
+    'prefix': 'model'
+    'body': '/**\n * ${2/(?<=[a-z])[A-Z]/ $&/g}\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}\n */\nclass ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Model_Xml${3:_Localised }\n{\n    protected \\$_itemName   = \'${4:${2/(.*?_)(.*)/\\l$2/}}\';\n    protected \\$_tableName  = \'${5:${2/(.*?_)(.*)/\\l$2/}s}\';\n\n    $6\n}'

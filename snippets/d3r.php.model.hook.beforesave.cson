@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Model beforeSave':
+    'prefix': 'bsave'
+    'body': '/**\n * Override for beforeSave model hook\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}\n */\npublic function beforeSave()\n{\n    parent::beforeSave();$1\n}$2'

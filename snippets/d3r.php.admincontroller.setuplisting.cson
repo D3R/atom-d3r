@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Admin Controller setupListing':
+    'prefix': 'setupl'
+    'body': 'protected function setupListing(D3R_Model_Listing \$listing)\n{\n    ${1:parent::setupListing(\\$listing);}\n}'

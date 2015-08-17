@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field Updated':
+    'prefix': 'updated'
+    'body': '<field>\n    <name>Updated</name>\n    <dbname>updated</dbname>\n    <type>Updated</type>\n    <required>False</required>\n    <listing>False</listing>\n</field>'

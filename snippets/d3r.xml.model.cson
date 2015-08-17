@@ -1,0 +1,4 @@
+'.text.xml':
+  'd3r.xml.model':
+    'prefix': 'model'
+    'body': '<?xml version="1.0" encoding="UTF-8"?>\n\n<fields>\n\n    <!-- Model DB Indices -->\n    <!-- <indices>\n        <index>\n            <field>fieldname</field>\n        </index>\n    </indices> -->\n\n    <!-- Model Field Definitions -->\n    $0\n\n    <!-- Standard timestamp fields -->\n    <field>\n        <name>Created</name>\n        <dbname>created</dbname>\n        <type>DateTime</type>\n        <default>now</default>\n        <required>False</required>\n        <listing>False</listing>\n        <hidden>True</hidden>\n    </field>\n    <field>\n        <name>Updated</name>\n        <dbname>updated</dbname>\n        <type>Updated</type>\n        <required>False</required>\n        <listing>False</listing>\n        <hidden>True</hidden>\n    </field>\n\n</fields>'

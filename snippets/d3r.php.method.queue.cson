@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Queue shove':
+    'prefix': 'queue'
+    'body': 'Core_Queue::factory()->priority(1)->shove($1, \'$2\');'

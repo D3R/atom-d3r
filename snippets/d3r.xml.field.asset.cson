@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field Asset':
+    'prefix': 'asset'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>Asset</type>\n    <required>False</required>\n    <listing>False</listing>\n    <!-- <crops>square</crops> -->\n    <!-- <format>\n        <size>admin</size>\n        <type>jpeg</type>\n    </format> -->\n    <!-- <max_files>1</max_files> -->\n</field>'

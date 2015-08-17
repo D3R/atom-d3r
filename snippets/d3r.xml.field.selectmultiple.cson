@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field SelectMultiple':
+    'prefix': 'select'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>SelectMultiple</type>\n    <options>\n        <option value="$3">$4</option>\n    </options>\n    <!-- <default>$5</default> -->\n    <!-- <num_cols>2<num_cols> -->\n    <required>False</required>\n    <listing>False</listing>\n    <hasblank>True</hasblank>\n</field>'

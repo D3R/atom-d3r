@@ -1,0 +1,4 @@
+'.source.txt':
+  'D3R File Header':
+    'prefix': 'phptag'
+    'body': '<?php\n/**\n * D3R Ltd\n *\n * @category    $1\n * @package     $2\n * @copyright   Copyright (c) 2006 D3R Ltd (http://d3r.com)\n * @license     http://d3r.com/license.txt\n */\n\n$3'

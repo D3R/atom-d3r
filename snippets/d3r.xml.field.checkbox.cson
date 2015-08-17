@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field Checkbox':
+    'prefix': 'checkbox'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>Checkbox</type>\n    <!-- <default>$3</default> -->\n    <required>False</required>\n    <listing>False</listing>\n    <on_value>true</on_value>\n    <on_label>Yes</on_label>\n    <off_value>false</off_value>\n    <off_label>No</off_label>\n</field>'

@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Cli Message':
+    'prefix': 'uim'
+    'body': 'D3R_Cli::uiMessage($1);'

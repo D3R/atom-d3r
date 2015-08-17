@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Model beforeCreate':
+    'prefix': 'bcreate'
+    'body': '/**\n * Override for beforeCreate model hook\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}\n */\npublic function beforeCreate()\n{\n    parent::beforeCreate();$1\n}$2'

@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field DateTime':
+    'prefix': 'datetime'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>DateTime</type>\n    <!-- <default>${3:now}</default> -->\n    <required>False</required>\n    <listing>False</listing>\n</field>'

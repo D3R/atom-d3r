@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Cli Error':
+    'prefix': 'uie'
+    'body': 'D3R_Cli::uiError($1);'

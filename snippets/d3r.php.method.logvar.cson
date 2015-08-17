@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Debug logVar':
+    'prefix': 'logvar'
+    'body': 'D3R_Debug::logVar(${1:\$var}, \'${2:Variable output}\', \'${3:important}\');'

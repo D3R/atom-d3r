@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Redirect':
+    'prefix': 'redir'
+    'body': 'D3R::redirect(\'$1\');'

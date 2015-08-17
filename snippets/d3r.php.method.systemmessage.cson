@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R System Message':
+    'prefix': 'smsg'
+    'body': 'D3R::systemMessage(\'$1\');'

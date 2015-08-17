@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field Calculated':
+    'prefix': 'calc'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>Calculated</type>\n    <listing>True</listing>\n    <method>getStock</method>\n</field>'

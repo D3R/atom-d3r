@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field Antispam':
+    'prefix': 'antispam'
+    'body': '<field>\n    <name>Anti spam</name>\n    <dbname>antispam</dbname>\n    <type>Antispam</type>\n</field>'

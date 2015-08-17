@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Model afterLoad':
+    'prefix': 'aload'
+    'body': '/**\n * Override for afterLoad model hook\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}\n */\npublic function afterLoad()\n{\n    parent::afterLoad();$1\n}$2'

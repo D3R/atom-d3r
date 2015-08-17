@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Model afterSave':
+    'prefix': 'asave'
+    'body': '/**\n * Override for afterSave model hook\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}\n */\npublic function afterSave()\n{\n    parent::afterSave();$1\n}$2'

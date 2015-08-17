@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Redirect To Previous':
+    'prefix': 'predir'
+    'body': 'D3R::redirectToPrevious(\'$1\');'

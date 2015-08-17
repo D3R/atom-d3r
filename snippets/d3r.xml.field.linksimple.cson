@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field LinkSimple':
+    'prefix': 'linksimple'
+    'body': '<field>\n    <name>$1</name>\n    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->\n    <type>LinkSimple</type>\n    <required>True</required>\n    <model>$2</model>\n    <raw_query>True</raw_query>\n    <hasblank>True</hasblank>\n    <listing>False</listing>\n    <hidden>False</hidden>\n    <!-- <default>0</default> -->\n    <!-- <link_title>field1,field2</link_title> -->\n</field>'

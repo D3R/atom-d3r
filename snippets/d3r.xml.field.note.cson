@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field Note':
+    'prefix': 'note'
+    'body': '<field>\n    <name>$1</name>\n    <type>Note</type>\n    <text>${2:Note text goes here}</text>\n    <required>False</required>\n    <listing>False</listing>\n</field>'

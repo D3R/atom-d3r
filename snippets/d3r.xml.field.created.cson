@@ -1,0 +1,4 @@
+'.text.xml':
+  'D3R Field Created':
+    'prefix': 'created'
+    'body': '<field>\n    <name>Created</name>\n    <dbname>created</dbname>\n    <type>DateTime</type>\n    <default>now</default>\n    <required>False</required>\n    <listing>False</listing>\n</field>'

@@ -1,0 +1,4 @@
+'.text.html':
+  'D3R Translate':
+    'prefix': 't'
+    'body': '<?${TM_PHP_OPEN_TAG}=\$this->t("$1$SELECTION")?>$0'

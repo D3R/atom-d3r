@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Model afterCreate':
+    'prefix': 'acreate'
+    'body': '/**\n * Override for afterCreate model hook\n *\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}\n */\npublic function afterCreate()\n{\n    parent::afterCreate();$1\n}$2'

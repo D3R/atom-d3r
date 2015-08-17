@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Controller View':
+    'prefix': 'view'
+    'body': '\$this->view()->$1'

@@ -1,0 +1,4 @@
+'.source.php':
+  'php.docblock.legal':
+    'prefix': 'legal'
+    'body': '/**\n * ${1:$TM_FILENAME}\n *\n * @author    Ronan Chilvers <ronan@d3r.com>\n * @copyright 2014 D3R Ltd\n * @license   http://d3r.com/license D3R Software Licence\n * @package   ${2:D3R}\n */'

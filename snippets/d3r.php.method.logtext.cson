@@ -1,0 +1,4 @@
+'.source.php':
+  'D3R Debug logText':
+    'prefix': 'logtext'
+    'body': 'D3R_Debug::logText(\'${1:Variable output}\', \'${2:important}\');'
